@@ -1,16 +1,17 @@
-console.log("Welcome to the main module");
+console.log("Welcome to Marcel's main module");
 
-import { createPlan } from './plan.js';
-import { createPotato} from './seeds/potato.js';
+// import { createPlan } from './plan.js';
+// import { createPotato} from './seeds/potato.js';
 
-const yearlyPlan = createPlan();
-console.log(yearlyPlan);
+// const yearlyPlan = createPlan();
+// console.log(yearlyPlan);
 
-for (const potato of yearlyPlan) {
-    console.log("the item is", potato);
-}
+// for (const potato of yearlyPlan) {
+//     console.log("the item is", potato);
+// }
 
-// import { createAsparagus } from './seeds/asparagus.js';
 
-// const asparagusSeed = createAsparagus()
-// console.log(asparagusSeed)
+import { createAsparagus } from "./seeds/asparagus.js"
+
+const asparagusSeed = createAsparagus()
+console.log(asparagusSeed)

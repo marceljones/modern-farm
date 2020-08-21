@@ -1,6 +1,6 @@
-export const createsparagus = () => {
+export const createAsparagus = () => {
     const asparagus =
-    type;
+    type; ""
     height;
     output;
 
